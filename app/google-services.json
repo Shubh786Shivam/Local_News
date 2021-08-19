@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474758671552",
+    "project_id": "localnews-4def3",
+    "storage_bucket": "localnews-4def3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474758671552:android:23932eacdb2b45b7461125",
+        "android_client_info": {
+          "package_name": "com.example.loginactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474758671552-hgv1it3q8mhn1t15qm7nuhje40n4fs4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Pw3UICTb01LnFCMOd8SFswbCKYn7v1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474758671552-hgv1it3q8mhn1t15qm7nuhje40n4fs4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

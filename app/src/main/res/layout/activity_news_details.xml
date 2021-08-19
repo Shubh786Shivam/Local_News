@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetailsActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:textStyle="bold"
+        android:hint="Title"
+        android:paddingStart="13dp"
+        android:textColorHint="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thumbnailImage" />
+
+    <ImageView
+        android:id="@+id/thumbnailImage"
+        android:layout_width="375dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="7dp"
+
+        android:paddingStart="13dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/picture" />
+
+    <TextView
+        android:id="@+id/dateAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="17dp"
+
+        android:layout_marginEnd="7dp"
+        android:hint="Date Added"
+        android:paddingStart="13dp"
+        android:textColorHint="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="17dp"
+        android:hint="Author"
+        android:textColorHint="@color/black"
+        android:textSize="17sp"
+        android:paddingStart="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+    <TextView
+        android:id="@+id/multilineArticle"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="7dp"
+
+        android:hint="Multiline Article News"
+        android:lineSpacingExtra="5sp"
+        android:paddingStart="13dp"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateAdded" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

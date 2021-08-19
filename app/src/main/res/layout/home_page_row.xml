@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_input"
+   >
+
+    <TextView
+        android:id="@+id/titleHomePage"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:hint="Title"
+        android:lineSpacingExtra="5sp"
+        android:paddingStart="9dp"
+        android:paddingTop="7dp"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateAddedHomePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:hint="Date"
+        android:paddingStart="9dp"
+        android:paddingTop="3dp"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleHomePage"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <ImageView
+        android:id="@+id/thumbnailHomePage"
+        android:layout_width="143dp"
+        android:layout_height="123dp"
+        android:layout_marginEnd="33dp"
+
+        android:layout_marginBottom="3dp"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/picture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
