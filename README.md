@@ -5,4 +5,4 @@
 <img src="https://github.com/Shubh786Shivam/Local_News/blob/master/images/Screenshot_1627389609.png" width="300" height="500" />
 
 ## Login Screen
-
+<img src="https://github.com/Shubh786Shivam/Local_News/blob/master/images/Screenshot_1627389615.png" width="300" height="500" />
