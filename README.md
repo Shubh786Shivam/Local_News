@@ -10,3 +10,5 @@
 ## Upload News
 <img src="https://github.com/Shubh786Shivam/Local_News/blob/master/images/Screenshot_1627389685.png" width="300" height="500" />
 
+## News Details
+<img src="https://github.com/Shubh786Shivam/Local_News/blob/master/images/Screenshot_1627389647.png" width="300" height="500" />
